@@ -1,0 +1,113 @@
+
+.form-inner {
+    width: 550px;
+    height: 550px;
+    border-radius: 20px;
+    background-color: rgb(39, 26, 221);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100px;
+    color: orange;
+}
+
+.button{
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 25px;
+    background-color:  orange;
+    border: none;
+    color: blue;
+    font-weight: bolder;
+}
+
+.input{
+    width: 400px;
+    height: 40px;
+    font-size: 22px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+ }
+
+ h2{
+    color: orange;
+    font-size: 38px;
+    font-weight: 500;
+    margin-bottom:30px;
+    text-transform: uppercase;
+ }
+
+ .form-group label {
+    font-size: 20px;
+ }
+
+ @media(max-width: 425px){
+    .LoginForm{
+       margin: 0 auto;
+       padding: 0 auto;
+    }
+    
+    .form-inner {
+        width: 350px;
+        height: 350px;
+        border-radius: 20px;
+        background-color: rgb(39, 26, 221);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-group{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: 80px;
+        color: orange;
+    }
+
+    .button{
+        height: 30px;
+        width: 100px;
+        font-size: 20px;
+        border-radius: 25px;
+        background-color:  orange;
+        border: none;
+        color: blue;
+        font-weight: bolder;
+    }
+
+    .input{
+        width: 300px;
+        height: 30px;
+        font-size: 16px;
+        border-radius: 10px;
+        padding-left: 10px;
+        border: none;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    h2{
+        color: orange;
+        font-size: 28px;
+        font-weight: 500;
+        margin-bottom:30px;
+        text-transform: uppercase;
+    }
+
+    .form-group label {
+        font-size: 16px;
+    }
+ }
